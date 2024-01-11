@@ -1,0 +1,55 @@
+{
+  "name": "modular-monolith",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/modular-monolith/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/apps/modular-monolith",
+        "main": "apps/modular-monolith/src/main.ts",
+        "tsConfig": "apps/modular-monolith/tsconfig.app.json",
+        "assets": ["apps/modular-monolith/src/assets"],
+        "webpackConfig": "apps/modular-monolith/webpack.config.js"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "modular-monolith:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "modular-monolith:build:development"
+        },
+        "production": {
+          "buildTarget": "modular-monolith:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/modular-monolith/jest.config.ts"
+      }
+    }
+  },
+  "tags": [
+    "type:application"
+  ]
+}
