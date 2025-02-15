@@ -21,6 +21,7 @@ jobs:
           main-branch-name: 'main'
       - run: pnpm install
       - run: pnpm biome check
+      - run: pnpm sherif
       - run: pnpm nx sync:check
       - run: pnpm typecheck
       - run: pnpm build
