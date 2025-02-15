@@ -1,8 +1,8 @@
-import { ORDER_API_INJECTION_TOKEN } from '@modular-monolith/modules/order-api';
+import { ORDER_API_INJECTION_TOKEN } from '@modular-monolith/modules-order-api';
 import {
   USER_API_INJECTION_TOKEN,
   UserApi,
-} from '@modular-monolith/modules/user-api';
+} from '@modular-monolith/modules-user-api';
 import { DynamicModule, Module } from '@nestjs/common';
 import { OrderController } from './order.controller';
 import { OrderService } from './order.service';

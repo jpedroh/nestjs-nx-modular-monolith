@@ -1,0 +1,8 @@
+{
+  "name": "modular-monolith",
+  "dependencies": {
+    "@modular-monolith/modules-order-impl": "workspace:*",
+    "@modular-monolith/modules-user-impl": "workspace:*",
+    "@modular-monolith/shared-monitoring": "workspace:*"
+  }
+}

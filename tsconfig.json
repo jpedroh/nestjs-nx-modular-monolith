@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [
+    {
+      "path": "./libs/modules/order-impl"
+    },
+    {
+      "path": "./libs/modules/order-api"
+    },
+    {
+      "path": "./libs/modules/user-impl"
+    },
+    {
+      "path": "./libs/shared/monitoring"
+    },
+    {
+      "path": "./apps/modular-monolith"
+    },
+    {
+      "path": "./libs/modules/user-api"
+    }
+  ]
+}

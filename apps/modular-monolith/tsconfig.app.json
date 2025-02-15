@@ -1,12 +1,19 @@
 {
-  "extends": "./tsconfig.json",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "../../dist/out-tsc",
-    "module": "commonjs",
-    "types": ["node"],
-    "emitDecoratorMetadata": true,
-    "target": "es2021"
+    "outDir": "./out-tsc/lib"
   },
-  "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"],
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts"],
+  "exclude": [],
+  "references": [
+    {
+      "path": "../../libs/shared/monitoring/tsconfig.lib.json"
+    },
+    {
+      "path": "../../libs/modules/user-impl/tsconfig.lib.json"
+    },
+    {
+      "path": "../../libs/modules/order-impl/tsconfig.lib.json"
+    }
+  ]
 }

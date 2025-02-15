@@ -2,35 +2,18 @@
   "compileOnSave": false,
   "compilerOptions": {
     "rootDir": ".",
+    "composite": true,
+    "declaration": true,
     "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es2015",
-    "module": "esnext",
+    "module": "Preserve",
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "@modular-monolith/modules/order-api": [
-        "libs/modules/order-api/src/index.ts"
-      ],
-      "@modular-monolith/modules/order-impl": [
-        "libs/modules/order-impl/src/index.ts"
-      ],
-      "@modular-monolith/modules/user-api": [
-        "libs/modules/user-api/src/index.ts"
-      ],
-      "@modular-monolith/modules/user-impl": [
-        "libs/modules/user-impl/src/index.ts"
-      ],
-      "@modular-monolith/shared/monitoring": [
-        "libs/shared/monitoring/src/index.ts"
-      ]
-    }
+    "baseUrl": "."
   },
   "exclude": ["node_modules", "tmp"]
 }

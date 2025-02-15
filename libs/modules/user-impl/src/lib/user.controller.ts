@@ -1,7 +1,7 @@
 import {
   USER_API_INJECTION_TOKEN,
-  UserApi,
-} from '@modular-monolith/modules/user-api';
+  type UserApi,
+} from '@modular-monolith/modules-user-api';
 import { Controller, Get, Inject, Param } from '@nestjs/common';
 
 @Controller('users')

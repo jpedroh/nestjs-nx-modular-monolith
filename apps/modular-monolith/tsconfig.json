@@ -4,13 +4,19 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/shared/monitoring"
+    },
+    {
+      "path": "../../libs/modules/user-impl"
+    },
+    {
+      "path": "../../libs/modules/order-impl"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {
       "path": "./tsconfig.spec.json"
     }
-  ],
-  "compilerOptions": {
-    "esModuleInterop": true
-  }
+  ]
 }

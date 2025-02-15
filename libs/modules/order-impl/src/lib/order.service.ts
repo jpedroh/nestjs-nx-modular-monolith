@@ -1,8 +1,8 @@
-import { OrderApi } from '@modular-monolith/modules/order-api';
+import { OrderApi } from '@modular-monolith/modules-order-api';
 import {
   USER_API_INJECTION_TOKEN,
-  UserApi,
-} from '@modular-monolith/modules/user-api';
+  type UserApi,
+} from '@modular-monolith/modules-user-api';
 import { Inject, Injectable } from '@nestjs/common';
 
 @Injectable()

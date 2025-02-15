@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { UserApi } from '@modular-monolith/modules/user-api';
+import { UserApi } from '@modular-monolith/modules-user-api';
 
 @Injectable()
 export class UserService implements UserApi {
