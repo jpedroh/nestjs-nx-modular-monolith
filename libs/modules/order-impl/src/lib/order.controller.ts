@@ -1,6 +1,6 @@
 import {
   ORDER_API_INJECTION_TOKEN,
-  OrderApi,
+  type OrderApi,
 } from '@modular-monolith/modules-order-api';
 import { Controller, Get, Inject } from '@nestjs/common';
 

@@ -3,6 +3,7 @@
   "compilerOptions": {
     "composite": true,
     "declaration": true,
+    "declarationMap": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "es2022",
@@ -16,6 +17,8 @@
     "noImplicitOverride": true,
     "module": "preserve",
     "noEmit": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "lib": ["es2022"]
   },
   "exclude": ["node_modules", "tmp"]
