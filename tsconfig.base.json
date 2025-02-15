@@ -16,7 +16,6 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "module": "preserve",
-    "noEmit": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": ["es2022"]
