@@ -2,6 +2,9 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "plugins": [
     {
+      "plugin": "@nx/eslint/plugin"
+    },
+    {
       "plugin": "@nx/js/typescript",
       "options": {
         "typecheck": {

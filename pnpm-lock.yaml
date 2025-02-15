@@ -112,11 +112,7 @@ importers:
         specifier: workspace:*
         version: link:../../libs/shared/monitoring
 
-  libs/modules/order-api:
-    devDependencies:
-      '@modular-monolith/shared-eslint-config':
-        specifier: workspace:*
-        version: link:../../shared/eslint-config
+  libs/modules/order-api: {}
 
   libs/modules/order-impl:
     dependencies:

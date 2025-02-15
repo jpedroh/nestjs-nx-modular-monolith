@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "@modular-monolith/modules-user-api": "workspace:*"
+  },
+  "nx": {
+    "tags": ["type:impl"]
   }
 }

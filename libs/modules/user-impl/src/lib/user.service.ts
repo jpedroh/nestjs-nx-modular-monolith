@@ -1,4 +1,4 @@
-import { UserApi } from '@modular-monolith/modules-user-api'
+import type { UserApi } from '@modular-monolith/modules-user-api'
 import { Injectable } from '@nestjs/common'
 
 @Injectable()

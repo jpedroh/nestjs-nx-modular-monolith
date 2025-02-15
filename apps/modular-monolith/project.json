@@ -36,10 +36,6 @@
           "buildTarget": "modular-monolith:build:production"
         }
       }
-    },
-    "lint": {
-      "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"]
     }
   },
   "tags": ["type:application"]

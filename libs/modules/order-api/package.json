@@ -8,7 +8,7 @@
       "default": "./src/index.ts"
     }
   },
-  "devDependencies": {
-    "@modular-monolith/shared-eslint-config": "workspace:*"
+  "nx": {
+    "tags": ["type:api"]
   }
 }

@@ -1,4 +1,4 @@
-import { OrderApi } from '@modular-monolith/modules-order-api'
+import type { OrderApi } from '@modular-monolith/modules-order-api'
 import {
   USER_API_INJECTION_TOKEN,
   type UserApi,
