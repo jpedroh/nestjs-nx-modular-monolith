@@ -20,6 +20,8 @@ jobs:
         with:
           main-branch-name: 'main'
       - run: pnpm install
+      - run: pnpm nx sync:check
+      - run: pnpm typecheck
       - run: pnpm build
       - run: pnpm test
       - run: pnpm lint

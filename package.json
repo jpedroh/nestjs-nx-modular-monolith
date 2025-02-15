@@ -7,7 +7,8 @@
     "serve": "nx serve modular-monolith",
     "build": "nx build modular-monolith",
     "lint": "nx affected -t=lint",
-    "test": "nx affected -t=test"
+    "test": "nx affected -t=test",
+    "typecheck": "nx affected -t=typecheck"
   },
   "private": true,
   "dependencies": {
