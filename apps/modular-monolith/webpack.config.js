@@ -4,6 +4,7 @@ const { composePlugins, withNx } = require('@nx/webpack');
 module.exports = composePlugins(
   withNx({
     target: 'node',
+    skipTypeChecking: true,
   }),
   (config) => {
     // Update the webpack config as needed here.
