@@ -3,13 +3,7 @@
   "files": [],
   "references": [
     {
-      "path": "../eslint-config"
-    },
-    {
       "path": "./tsconfig.lib.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
     }
   ]
 }

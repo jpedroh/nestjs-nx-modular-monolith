@@ -19,6 +19,9 @@
     },
     {
       "path": "./libs/modules/user-api"
+    },
+    {
+      "path": "./libs/shared/eslint-config"
     }
   ]
 }

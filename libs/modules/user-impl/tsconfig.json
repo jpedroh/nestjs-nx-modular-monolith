@@ -6,6 +6,9 @@
       "path": "../user-api"
     },
     {
+      "path": "../../shared/eslint-config"
+    },
+    {
       "path": "./tsconfig.lib.json"
     },
     {

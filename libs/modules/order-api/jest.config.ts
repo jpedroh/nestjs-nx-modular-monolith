@@ -1,4 +1,3 @@
-/* eslint-disable */
 export default {
   displayName: 'modules-order-api',
   preset: '../../../jest.preset.js',

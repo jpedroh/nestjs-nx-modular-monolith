@@ -8,6 +8,9 @@
   "references": [
     {
       "path": "../user-api/tsconfig.lib.json"
+    },
+    {
+      "path": "../../shared/eslint-config/tsconfig.lib.json"
     }
   ]
 }

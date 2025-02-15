@@ -1,0 +1,18 @@
+{
+  "name": "@modular-monolith/shared-eslint-config",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./eslint.config.js",
+      "default": "./eslint.config.js",
+      "types": "./eslint.config.js"
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "~9.20.0",
+    "@nx/eslint-plugin": "20.4.4",
+    "eslint": "^9.20.1",
+    "eslint-plugin-import": "2.31.0",
+    "typescript-eslint": "^8.24.0"
+  }
+}

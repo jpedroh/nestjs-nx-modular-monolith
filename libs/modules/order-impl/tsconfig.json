@@ -9,6 +9,9 @@
       "path": "../order-api"
     },
     {
+      "path": "../../shared/eslint-config"
+    },
+    {
       "path": "./tsconfig.lib.json"
     },
     {
