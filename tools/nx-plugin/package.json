@@ -1,0 +1,12 @@
+{
+  "name": "@modular-monolith/nx-plugin",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "dependencies": {
+    "@nx/devkit": "20.4.4"
+  },
+  "generators": "./generators.json"
+}

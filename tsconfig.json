@@ -22,6 +22,9 @@
     },
     {
       "path": "./libs/shared/eslint-config"
+    },
+    {
+      "path": "./tools/nx-plugin"
     }
   ]
 }
