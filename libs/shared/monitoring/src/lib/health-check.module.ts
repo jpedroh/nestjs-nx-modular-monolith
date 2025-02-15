@@ -1,6 +1,6 @@
-import { Module } from '@nestjs/common';
-import { PrometheusModule } from '@willsoto/nestjs-prometheus';
-import { HealthCheckController } from './health-check.controller';
+import { Module } from '@nestjs/common'
+import { PrometheusModule } from '@willsoto/nestjs-prometheus'
+import { HealthCheckController } from './health-check.controller'
 
 @Module({
   imports: [

@@ -49,7 +49,5 @@
       }
     }
   },
-  "tags": [
-    "type:application"
-  ]
+  "tags": ["type:application"]
 }

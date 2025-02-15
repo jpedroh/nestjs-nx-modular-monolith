@@ -1,9 +1,9 @@
-import { OrderApi } from '@modular-monolith/modules-order-api';
+import { OrderApi } from '@modular-monolith/modules-order-api'
 import {
   USER_API_INJECTION_TOKEN,
   type UserApi,
-} from '@modular-monolith/modules-user-api';
-import { Inject, Injectable } from '@nestjs/common';
+} from '@modular-monolith/modules-user-api'
+import { Inject, Injectable } from '@nestjs/common'
 
 @Injectable()
 export class OrderService implements OrderApi {
@@ -12,7 +12,7 @@ export class OrderService implements OrderApi {
   ) {}
 
   async createOrder(userId: string, items: string[]): Promise<string> {
-    const user = await this.userApi.getUserById(userId);
-    return `Successfuly created order for user ${user.name} with items ${items}`;
+    const user = await this.userApi.getUserById(userId)
+    return `Successfuly created order for user ${user.name} with items ${items}`
   }
 }

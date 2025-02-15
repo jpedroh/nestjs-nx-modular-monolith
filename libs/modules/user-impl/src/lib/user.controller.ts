@@ -1,8 +1,8 @@
 import {
   USER_API_INJECTION_TOKEN,
   type UserApi,
-} from '@modular-monolith/modules-user-api';
-import { Controller, Get, Inject, Param } from '@nestjs/common';
+} from '@modular-monolith/modules-user-api'
+import { Controller, Get, Inject, Param } from '@nestjs/common'
 
 @Controller('users')
 export class UserController {
@@ -12,6 +12,6 @@ export class UserController {
 
   @Get('/:id')
   getUserById(@Param('id') id: string) {
-    return this.service.getUserById(id);
+    return this.service.getUserById(id)
   }
 }

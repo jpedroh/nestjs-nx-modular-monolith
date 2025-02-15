@@ -1,8 +1,8 @@
 // @ts-check
 
-import eslint from '@eslint/js';
-import nxPlugin from '@nx/eslint-plugin';
-import tseslint from 'typescript-eslint';
+import eslint from '@eslint/js'
+import nxPlugin from '@nx/eslint-plugin'
+import tseslint from 'typescript-eslint'
 
 export default tseslint.config({
   files: ['src/**/*.ts'],
@@ -13,7 +13,7 @@ export default tseslint.config({
   ],
   plugins: { '@nx': nxPlugin },
   rules: {
-    "@typescript-eslint/consistent-type-definitions": "off",
+    '@typescript-eslint/consistent-type-definitions': 'off',
     '@nx/enforce-module-boundaries': [
       'error',
       {
@@ -44,4 +44,4 @@ export default tseslint.config({
       },
     ],
   },
-});
+})

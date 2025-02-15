@@ -1,8 +1,8 @@
 import {
   ORDER_API_INJECTION_TOKEN,
   type OrderApi,
-} from '@modular-monolith/modules-order-api';
-import { Controller, Get, Inject } from '@nestjs/common';
+} from '@modular-monolith/modules-order-api'
+import { Controller, Get, Inject } from '@nestjs/common'
 
 @Controller('orders')
 export class OrderController {
@@ -12,6 +12,6 @@ export class OrderController {
 
   @Get('create')
   createOrder(userId: string, items: string[]): Promise<string> {
-    return this.service.createOrder(userId, items);
+    return this.service.createOrder(userId, items)
   }
 }

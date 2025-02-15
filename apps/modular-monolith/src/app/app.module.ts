@@ -1,8 +1,8 @@
-import { Module } from '@nestjs/common';
+import { Module } from '@nestjs/common'
 
-import { OrderModule } from '@modular-monolith/modules-order-impl';
-import { UserModule, UserService } from '@modular-monolith/modules-user-impl';
-import { HealthCheckModule } from '@modular-monolith/shared-monitoring';
+import { OrderModule } from '@modular-monolith/modules-order-impl'
+import { UserModule, UserService } from '@modular-monolith/modules-user-impl'
+import { HealthCheckModule } from '@modular-monolith/shared-monitoring'
 
 @Module({
   imports: [

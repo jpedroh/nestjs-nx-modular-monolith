@@ -1,1 +1,1 @@
-export { default } from '@modular-monolith/shared-eslint-config';
+export { default } from '@modular-monolith/shared-eslint-config'
