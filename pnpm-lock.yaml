@@ -16,10 +16,10 @@ importers:
         version: link:libs/shared/eslint-config
       '@nestjs/common':
         specifier: ^11.0.10
-        version: 11.0.10(reflect-metadata@0.1.14)(rxjs@7.8.1)
+        version: 11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/core':
         specifier: ^11.0.10
-        version: 11.0.10(@nestjs/common@11.0.10)(@nestjs/platform-express@11.0.10)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+        version: 11.0.10(@nestjs/common@11.0.10)(@nestjs/platform-express@11.0.10)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/platform-express':
         specifier: ^11.0.10
         version: 11.0.10(@nestjs/common@11.0.10)(@nestjs/core@11.0.10)
@@ -28,7 +28,7 @@ importers:
         version: 11.0.1(typescript@5.7.3)
       '@nestjs/terminus':
         specifier: ^11.0.0
-        version: 11.0.0(@nestjs/common@11.0.10)(@nestjs/core@11.0.10)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+        version: 11.0.0(@nestjs/common@11.0.10)(@nestjs/core@11.0.10)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/testing':
         specifier: ^11.0.10
         version: 11.0.10(@nestjs/common@11.0.10)(@nestjs/core@11.0.10)(@nestjs/platform-express@11.0.10)
@@ -93,8 +93,8 @@ importers:
         specifier: ^0.16.0
         version: 0.16.0
       reflect-metadata:
-        specifier: ^0.1.13
-        version: 0.1.14
+        specifier: ^0.2.2
+        version: 0.2.2
       rxjs:
         specifier: ^7.8.0
         version: 7.8.1
@@ -2267,7 +2267,7 @@ packages:
       '@emnapi/runtime': 1.3.1
       '@tybys/wasm-util': 0.9.0
 
-  /@nestjs/common@11.0.10(reflect-metadata@0.1.14)(rxjs@7.8.1):
+  /@nestjs/common@11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.1):
     resolution: {integrity: sha512-pzGXp14KF2Q4CDZGQgPK4l8zEg7i6cNkb+10yc8ZA5K41cLe3ZbWW1YxtY2e/glHauOJwTLSVjH4tiRVtOTizg==}
     peerDependencies:
       class-transformer: '*'
@@ -2281,13 +2281,13 @@ packages:
         optional: true
     dependencies:
       iterare: 1.2.1
-      reflect-metadata: 0.1.14
+      reflect-metadata: 0.2.2
       rxjs: 7.8.1
       tslib: 2.8.1
       uid: 2.0.2
     dev: true
 
-  /@nestjs/core@11.0.10(@nestjs/common@11.0.10)(@nestjs/platform-express@11.0.10)(reflect-metadata@0.1.14)(rxjs@7.8.1):
+  /@nestjs/core@11.0.10(@nestjs/common@11.0.10)(@nestjs/platform-express@11.0.10)(reflect-metadata@0.2.2)(rxjs@7.8.1):
     resolution: {integrity: sha512-f0qB8ztNWZeAD4E4fUdHConmNYCa/A78U7WJu5mX9OLYfOAs3ESYCDfsH9MRUvkA4Ft4Y1uMmyJo5L4fg4+beg==}
     engines: {node: '>= 20'}
     requiresBuild: true
@@ -2306,13 +2306,13 @@ packages:
       '@nestjs/websockets':
         optional: true
     dependencies:
-      '@nestjs/common': 11.0.10(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/common': 11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/platform-express': 11.0.10(@nestjs/common@11.0.10)(@nestjs/core@11.0.10)
       '@nuxt/opencollective': 0.4.1
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
       path-to-regexp: 8.2.0
-      reflect-metadata: 0.1.14
+      reflect-metadata: 0.2.2
       rxjs: 7.8.1
       tslib: 2.8.1
       uid: 2.0.2
@@ -2324,8 +2324,8 @@ packages:
       '@nestjs/common': ^11.0.0
       '@nestjs/core': ^11.0.0
     dependencies:
-      '@nestjs/common': 11.0.10(reflect-metadata@0.1.14)(rxjs@7.8.1)
-      '@nestjs/core': 11.0.10(@nestjs/common@11.0.10)(@nestjs/platform-express@11.0.10)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/common': 11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.1)
+      '@nestjs/core': 11.0.10(@nestjs/common@11.0.10)(@nestjs/platform-express@11.0.10)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       cors: 2.8.5
       express: 5.0.1
       multer: 1.4.5-lts.1
@@ -2364,7 +2364,7 @@ packages:
       - chokidar
     dev: true
 
-  /@nestjs/terminus@11.0.0(@nestjs/common@11.0.10)(@nestjs/core@11.0.10)(reflect-metadata@0.1.14)(rxjs@7.8.1):
+  /@nestjs/terminus@11.0.0(@nestjs/common@11.0.10)(@nestjs/core@11.0.10)(reflect-metadata@0.2.2)(rxjs@7.8.1):
     resolution: {integrity: sha512-c55LOo9YGovmQHtFUMa/vDaxGZ2cglMTZejqgHREaApt/GArTfgYYGwhRXPLq8ZwiQQlLuYB+79e9iA8mlDSLA==}
     peerDependencies:
       '@grpc/grpc-js': '*'
@@ -2412,11 +2412,11 @@ packages:
       typeorm:
         optional: true
     dependencies:
-      '@nestjs/common': 11.0.10(reflect-metadata@0.1.14)(rxjs@7.8.1)
-      '@nestjs/core': 11.0.10(@nestjs/common@11.0.10)(@nestjs/platform-express@11.0.10)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/common': 11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.1)
+      '@nestjs/core': 11.0.10(@nestjs/common@11.0.10)(@nestjs/platform-express@11.0.10)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       boxen: 5.1.2
       check-disk-space: 3.4.0
-      reflect-metadata: 0.1.14
+      reflect-metadata: 0.2.2
       rxjs: 7.8.1
     dev: true
 
@@ -2433,8 +2433,8 @@ packages:
       '@nestjs/platform-express':
         optional: true
     dependencies:
-      '@nestjs/common': 11.0.10(reflect-metadata@0.1.14)(rxjs@7.8.1)
-      '@nestjs/core': 11.0.10(@nestjs/common@11.0.10)(@nestjs/platform-express@11.0.10)(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/common': 11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.1)
+      '@nestjs/core': 11.0.10(@nestjs/common@11.0.10)(@nestjs/platform-express@11.0.10)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/platform-express': 11.0.10(@nestjs/common@11.0.10)(@nestjs/core@11.0.10)
       tslib: 2.8.1
     dev: true
@@ -4012,7 +4012,7 @@ packages:
       '@nestjs/common': ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0
       prom-client: ^15.0.0
     dependencies:
-      '@nestjs/common': 11.0.10(reflect-metadata@0.1.14)(rxjs@7.8.1)
+      '@nestjs/common': 11.0.10(reflect-metadata@0.2.2)(rxjs@7.8.1)
       prom-client: 15.1.3
     dev: true
 
@@ -9241,8 +9241,8 @@ packages:
     engines: {node: '>= 14.18.0'}
     dev: true
 
-  /reflect-metadata@0.1.14:
-    resolution: {integrity: sha512-ZhYeb6nRaXCfhnndflDK8qI6ZQ/YcWZCISRAWICW9XYqMUwjZM9Z0DveWX/ABN01oxSHwVxKQmxeYZSsm0jh5A==}
+  /reflect-metadata@0.2.2:
+    resolution: {integrity: sha512-urBwgfrvVP/eAyXx4hluJivBKzuEbSQs9rKWCrCkbSxNv8mxPcUZKeuoF3Uy4mJl3Lwprp6yy5/39VWigZ4K6Q==}
     dev: true
 
   /reflect.getprototypeof@1.0.10:
