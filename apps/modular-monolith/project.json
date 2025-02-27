@@ -15,7 +15,7 @@
         "main": "apps/modular-monolith/src/main.ts",
         "tsConfig": "apps/modular-monolith/tsconfig.app.json",
         "assets": ["apps/modular-monolith/src/assets"],
-        "webpackConfig": "apps/modular-monolith/webpack.config.js"
+        "webpackConfig": "apps/modular-monolith/webpack.config.cjs"
       },
       "configurations": {
         "development": {},

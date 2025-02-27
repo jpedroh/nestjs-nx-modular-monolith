@@ -13,6 +13,9 @@
       "path": "../../libs/modules/order-impl"
     },
     {
+      "path": "../../libs/shared/eslint-config"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

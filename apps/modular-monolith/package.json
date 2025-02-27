@@ -1,5 +1,6 @@
 {
   "name": "modular-monolith",
+  "type": "module",
   "dependencies": {
     "@modular-monolith/modules-order-impl": "workspace:*",
     "@modular-monolith/modules-user-impl": "workspace:*",
