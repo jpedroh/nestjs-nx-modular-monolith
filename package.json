@@ -33,7 +33,7 @@
     "@svgr/webpack": "^8.0.1",
     "@swc-node/register": "~1.10.9",
     "@swc/cli": "~0.6.0",
-    "@swc/core": "~1.11.4",
+    "@swc/core": "~1.11.5",
     "@swc/helpers": "~0.5.11",
     "@types/node": "22.13.5",
     "@willsoto/nestjs-prometheus": "^6.0.0",
