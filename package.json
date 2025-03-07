@@ -37,7 +37,7 @@
     "@swc/helpers": "~0.5.11",
     "@types/node": "22.13.9",
     "@willsoto/nestjs-prometheus": "^6.0.0",
-    "axios": "^1.8.1",
+    "axios": "^1.8.2",
     "nx": "20.4.6",
     "prom-client": "^15.1.0",
     "react-refresh": "^0.16.0",
