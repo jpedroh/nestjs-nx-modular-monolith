@@ -35,7 +35,7 @@
     "@swc/cli": "~0.6.0",
     "@swc/core": "~1.11.13",
     "@swc/helpers": "~0.5.11",
-    "@types/node": "22.13.13",
+    "@types/node": "22.13.14",
     "@willsoto/nestjs-prometheus": "^6.0.0",
     "axios": "^1.8.4",
     "nx": "20.6.4",
