@@ -40,7 +40,7 @@
     "axios": "^1.8.4",
     "nx": "20.6.4",
     "prom-client": "^15.1.0",
-    "react-refresh": "^0.16.0",
+    "react-refresh": "^0.17.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "sherif": "^1.4.0",
