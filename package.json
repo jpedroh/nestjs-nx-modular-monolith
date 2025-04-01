@@ -29,7 +29,7 @@
     "@nx/plugin": "20.7.0",
     "@nx/webpack": "20.7.0",
     "@nx/workspace": "20.7.0",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.16",
     "@svgr/webpack": "^8.0.1",
     "@swc-node/register": "~1.10.10",
     "@swc/cli": "~0.6.0",
