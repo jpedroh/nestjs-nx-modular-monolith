@@ -18,7 +18,7 @@
     "@nestjs/common": "^11.0.13",
     "@nestjs/core": "^11.0.13",
     "@nestjs/platform-express": "^11.0.13",
-    "@nestjs/schematics": "^11.0.2",
+    "@nestjs/schematics": "^11.0.3",
     "@nestjs/terminus": "^11.0.0",
     "@nestjs/testing": "^11.0.13",
     "@nx/devkit": "20.7.1",
