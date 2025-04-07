@@ -46,7 +46,7 @@
     "sherif": "^1.4.0",
     "ts-node": "10.9.2",
     "tslib": "^2.3.0",
-    "typescript": "~5.8.2",
+    "typescript": "~5.8.3",
     "url-loader": "^4.1.1"
   }
 }
