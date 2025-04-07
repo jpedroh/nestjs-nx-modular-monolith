@@ -43,7 +43,7 @@
     "react-refresh": "^0.17.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
-    "sherif": "^1.4.0",
+    "sherif": "^1.5.0",
     "ts-node": "10.9.2",
     "tslib": "^2.3.0",
     "typescript": "~5.8.3",
